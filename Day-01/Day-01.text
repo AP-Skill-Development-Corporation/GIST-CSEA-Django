@@ -1,0 +1,60 @@
+Day-01[27-02-2023]:
+===================
+	Good Afternoon to All...
+
+	Python Basics:
+	==============
+
+	Variables:
+	==========
+		- To Store a value
+		- To Change a value
+
+	Variable Assignments:
+	=====================
+		- line by line process
+			Ex:
+				a = 10
+				b = 20
+		- Different variables = different values
+			Ex:
+				variable1,variable2 = value1,value2
+
+		- Different variables = single value
+			Ex:
+				variable1 = variable2 = value1
+
+	Data Types:
+	===========
+		- int
+		- float
+		- string
+		- complex
+		- boolean
+		- None
+		- All Data Structures like [List,Tuple,Set and Dictionary]
+
+	Type Method:
+	============
+		- To know the data type of a variable.
+
+	TypeCasting:
+	============
+		- int()
+		- float()
+		- str()
+		- bool()
+		- complex()
+		- list(),tuple(),set(),dict()
+
+	Operators:
+	==========
+		- Arithmetic => +,-,*,/,//,%,**
+		- Assignment => +=,-=,/=,//=,%=,*=
+		- Logical => AND,OR,NOT
+		- Bitwise => &,|,!,^,>>,<<
+		- Relational => <,>,<=,>=,!=,==
+		- Membership => in,not in
+		- Identity => is,is not
+
+	
