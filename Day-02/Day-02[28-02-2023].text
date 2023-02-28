@@ -1,0 +1,96 @@
+Day-02[28-02-2023]:
+===================
+	Good Morning to All..
+
+	Python Downloads:
+	=================
+		- python.org
+		- Downloads
+		- windows
+		- stable and pre release
+		- cntrl + f => python 3.x version
+		- windows x86-64 executeable installer
+
+	Python Installation:
+	====================
+		- Double tap on setup file that is downloaded from python.org
+		- click on yes to install
+		- it consists of 2 options and 2 checkboxes
+		- 2 options
+			= Install now [Default path]
+			= custom installation [User Defined]
+		- 2 checkboxes
+			= All Users
+			= Add python3.x to path
+		- Click on next to complete the installation process
+
+	Python Error:
+	=============
+		Python is not recognized as internal or external comman error
+
+		- 2 or more version is installed
+		- path is not set in environment variables
+		- Python is not installed
+		- Anaconda software is installed with different versions
+
+	Python:
+	=======
+		- cmd
+		- python -V
+
+	Pip:
+	====
+		- To install third party packages
+		Syntax:
+			- cmd
+			- pip install <packagename>
+
+		- Pip version Check
+			- cmd
+			- pip -V
+		- Pip Upgrade:
+			- cmd
+			- python -m pip install --upgrade pip
+
+	Data Structures:
+	================
+		- list
+		- tuple
+		- set
+		- dictionary
+		- string
+
+	Functions:
+	==========
+		- To perform a specific Task
+		Syntax:
+			def functionname(arguments):
+				//stmnts
+				return return_value
+		- Predefined => Already task is fixed
+		- Userdefined => User has to assign a task
+		- UserDefined types
+			= With returntype and with arguments
+			= With returntype and without arguments
+			= Without returntype and with arguments
+			= Without returntype and without arguments
+		- Argument Types
+			= Default argument
+			= Keyword argument
+			= Positional argument
+			= Variable Length argument
+				- Orbitary Positional
+				- Orbitary Keyword
+
+	Django Installation:
+	====================
+		- cmd
+		- pip install django==3.0
+
+	Django Version Check:
+	=====================
+		- cmd
+		- django-admin --version
+
+
+		
