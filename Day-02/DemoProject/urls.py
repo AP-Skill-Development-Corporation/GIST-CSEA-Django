@@ -21,13 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('s/',views.sample),
 ]
-
-    
-    Packages and Modules
-    Oops Concepts
-    Class,objects,methods,Inheritance,
-    Abstraction,Polymorphism
-    constructor types
     
 
 
