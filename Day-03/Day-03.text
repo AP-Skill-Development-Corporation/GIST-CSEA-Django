@@ -1,0 +1,26 @@
+Day-03[01-03-2023]:
+===================
+	Good Morning to All..
+
+	Dynamic Url Mapping:
+	====================
+		- url with single parameter
+		- url with n number of parameters
+		- url with single parameter along with html tag
+		- url with single parameter along with css styles
+		- url with single parameter along with javascript
+		- url with n number of parameter along with html tag and css styles
+		- url with n number of parameters
+
+	Interface between url to views
+
+	render():
+	=========
+		render('self','.htmlfile location',{dictionary})
+
+	Interface between url to views and then views to templates
+		
+	Django Template Language:
+	=========================
+		- variable
+			=> {{variablename}}
