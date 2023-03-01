@@ -12,3 +12,9 @@ Django for CSE-A
   - Django Installation,Project Creation and App Creation
   - Overview of Project and App Files
   - Running of Project,HttpResponse with sample example
+  
+# Day-03(01-03-2023):
+  - Dynamic Url Mapping with single and n parameters
+  - Url mapping with html tags,css and javascript
+  - Template folder creation and accessing of template file
+  - Interface between Controller and template 
