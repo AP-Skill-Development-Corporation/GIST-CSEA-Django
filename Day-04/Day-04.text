@@ -1,0 +1,31 @@
+Day-04[02-03-2023]:
+===================
+	Good Morning to All..
+
+	Static file Handling:
+	=====================
+		- Internal Styling for a template file
+		- External CSS accessing from static folder
+
+	Interface between controllers to templates and then templates to controller and to another template
+
+	Form Methods:
+	=============
+		- GET
+		- POST
+
+	GET:
+	====
+		- It displays the values in url of html file
+		- By default the form method is "GET"
+		- It stores 2064 characters in an url
+		- It can access or submit the data to controllers or a database
+
+	POST:
+	=====
+		- It doesnt display any value in an url
+		- It hides the sensitive information of a user and submit to database
+		- It stores large characters
+		- It submits the data to controllers or a database
+
+	

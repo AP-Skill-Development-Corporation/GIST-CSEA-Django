@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/sample.css' %}">
+</head>
+<body>
+	<h3>Register</h3>
+	<form method="post">
+		{% csrf_token %}
+		<label>Username</label>
+		<input type="text" name="un"><br/>
+		<label>Password</label>
+		<input type="password" name="pd"><br/>
+		<label>Email</label>
+		<input type="email" name="em"><br/>
+		<button type="reset">Reset</button>
+		<button type="submit">Create</button>
+	</form>
+</body>
+</html>
