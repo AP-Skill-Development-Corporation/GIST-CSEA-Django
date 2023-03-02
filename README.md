@@ -18,3 +18,9 @@ Django for CSE-A
   - Url mapping with html tags,css and javascript
   - Template folder creation and accessing of template file
   - Interface between Controller and template 
+
+# Day-04(02-03-2023):
+  - Static File Handling with css
+  - Interface between controller to template with inline and external css
+  - Interface between controller to template and then template to another template
+  - Form controls and its methods with sample example
