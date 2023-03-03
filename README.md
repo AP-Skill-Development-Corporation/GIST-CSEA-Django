@@ -24,3 +24,9 @@ Django for CSE-A
   - Interface between controller to template with inline and external css
   - Interface between controller to template and then template to another template
   - Form controls and its methods with sample example
+
+# Day-05(03-03-2023):
+  - Bootstrap4 Online and Offline modes
+  - Templates and static file configuration
+  - ORM Overview and ORM Queries with sample example on shell
+  - CRUD Operations with sample example
