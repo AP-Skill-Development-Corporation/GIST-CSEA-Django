@@ -1,0 +1,160 @@
+Day-05[03-03-2023]:
+===================
+	Good Morning to All...
+
+	Bootstrap4
+		- Online mode
+		- Offline mode
+
+	Template Folder and Static Folder Configuration in Settings.py:
+	===============================================================
+		Templates Folder
+			=> In Templates Variables
+				'DIRS' = [os.path.join(BASE_DIR,'templates')]
+
+		Static Folder
+			=> We need to create another static variable such as
+				STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
+
+	Url Configuration in .html files:
+	=================================
+		<a href="{% url 'urlnameofpath' %}"></a>
+
+	ORM => [Object Relational Mapper]:
+	==================================
+		=> CharField,IntegerField,EmailField etc.,
+			we can refer some more examples in https://django.doc official site
+		=> Creating Interface File
+			=> cmd
+			=> python manage.py makemigrations
+							or
+			   manage.py makemigrations
+			=> python manage.py migrate
+							or
+			   manage.py migrate
+
+	ORM Queries:
+	============
+		=> cmd
+		=> python manage.py shell
+		=> from appname.models import classname
+
+		Inserting:
+		==========
+			-> Save method:
+			---------------
+			objectname = classname(field=value,field=value)
+			objectname.save()
+
+			-> Create:
+			----------
+			objectname = classname.objects.create(field=value,field=value)
+
+				No use of using save method in create
+
+		Reading:
+		========
+			-> get:
+			-------
+				=> Only Unique values to be accessed 
+				=> If the value is existing in table then displays if not it displays an error
+			objectname = classname.objects.get(fieldname=value)
+			print(objectname.fieldname)
+
+			-> filter:
+			----------
+				=> Duplicate values can be accessed
+				=> If value is existing in table it displays if not it displays empty
+			objectname = classname.objects.filter(fieldname=value)
+			print(objectname)
+
+			If 2 or more records exists then we need to use loop 
+
+			for i in objectname:
+				print(i.fieldname,i.fieldname)
+
+			-> Slicing:
+			-----------
+				=> Positive indexing can be accessed but not negative indexing in reverse order
+
+			objectname = classname.objects.all()[start:stop]
+			print(objectname) or use loop to iterate all record values
+
+		Update:
+		=======
+			objectname = classname.objects.get(fieldname=value)
+			objectname.fieldname = newvalue
+			objectname.save()
+
+		Delete:
+		=======
+			- single record:
+			----------------
+				objectname = classname.objects.get(fieldname=value)
+				objectname.delete()
+
+			- duplicate records:
+			--------------------
+				objectname = classname.objects.filter(fieldname=value)
+				objectname.delete()
+					or
+				objectname = classname.objects.filter(fieldname=value).delete()
+
+			- all:
+			------
+				objectname = classname.objects.all().delete()
+							or
+				objectname = classname.objects.all()
+				objectname.delete()
+
+		Bootstrap-4:
+		============
+			container:
+			----------
+				- container
+				- container-fluid
+
+			jumbotron
+
+			card:
+			-----
+				- card
+				- card-body
+
+			grid system:
+			------------
+				- 12 columns => 1 webpage
+				- xm => very small
+				- sm => small
+				- md => medium
+				- lg => large
+				- xl => Extra large
+				- row => col = col
+
+			margin:
+			-------
+				- It can be accessed only through points such as from 1 to 5
+				- mt =>	margin-top
+				- mb => margin-bottom
+				- ml => margin-left
+				- mr => margin-right
+				- mx => margin - left,right
+				- my => margin - top,bottom
+
+			padding:
+			--------
+				- It can be accessed only though points such as from 1 to 5
+				- pt =>	padding-top
+				- pb => padding-bottom
+				- pl => padding-left
+				- pr => padding-right
+				- px => padding - left,right
+				- py => padding - top,bottom	
+
+			DTL:
+			====
+				for:
+				----
+					{% for i in iterator %}
+						{{i.fieldname}}
+					{% endfor %}		
