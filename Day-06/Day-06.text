@@ -1,0 +1,39 @@
+Day-06[04-03-2023]:
+===================
+	Good Morning to All...
+
+	Template Blocks:
+	================
+		Title => {% block title %}{% endblock %}
+		Include => {% include 'html/navbar.html' %}
+		Extends => {% extends 'html/base.html' %}
+		Content => {% block content %}{% endblock %}
+
+	SuperUserCreation:
+	==================
+		=> cmd
+		=> python manage.py createsuperuser
+						or
+		   manage.py createsuperuser
+		=> After need to enter admin name or choose default name that is username exist for a system
+		=> Enter email or else we can skip that field value
+		=> Enter password but password wont display what we are entering
+		=> Re-enter password again for confirming the password
+		=> Then validation option has to be decided by user then press "y" for creating a user
+		=> Finally Admin account is created by using command prompt with the help of manage.py file
+
+	Form Creation by Existing model:
+	================================
+		- Existing model can be used by import the statements such as
+			- from django.contrib.auth.models import User
+			User is the existing model consists of default fields in it
+		- Existing form to create a user creation form
+			- from django.contrib.auth.forms import UserCreationForm
+		- In creating the form we can restrict the fields by using the fields in creating a new user class defined in forms.py file
+
+	Widgets:
+	========
+		- For bootstrap styling and data type of values to be inserted into a database by client validations
+		- In widgets we can use different types based on the type of input such as TextInput,PasswordInput,EmailInput etc.,
+
+	

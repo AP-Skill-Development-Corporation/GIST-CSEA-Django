@@ -1,0 +1,25 @@
+{% extends 'html/base.html' %}
+{% block title %} Register {% endblock %}
+{% block content %}
+<div class="card col-md-5 mx-auto mt-4 shadow-lg border-success">
+  <div class="card-body">
+    <h3>Register</h3>
+    <form method="post">
+      {% csrf_token %}
+      <table class="table table-borderless">
+        {% for i in g %}
+        <tr>{{i}}</tr>
+        {% endfor %}
+      </table>
+      <div class="row">
+        <div class="col">
+          <input type="reset" value="Reset" class="btn btn-outline-danger form-control mx-2">
+        </div>
+        <div class="col">
+          <input type="submit" value="Create" class="btn btn-outline-success form-control">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
