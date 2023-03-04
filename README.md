@@ -34,7 +34,7 @@ Django for CSE-A
 # Day-06(04-03-2023):
   - Template Blocks
   - Existing models and form access
-  - Overview for roles of users
+  - Overview on roles of users
   - Forms Concept and widgets useage
   - Superuser Creation and use of admin app
   - User Authentication and Authorization
