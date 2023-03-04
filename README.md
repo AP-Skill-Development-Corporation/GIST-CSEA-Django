@@ -30,3 +30,11 @@ Django for CSE-A
   - Templates and static file configuration
   - ORM Overview and ORM Queries with sample example on shell
   - CRUD Operations with sample example
+
+# Day-06(04-03-2023):
+  - Template Blocks
+  - Existing models and form access
+  - Overview for roles of users
+  - Forms Concept and widgets useage
+  - Superuser Creation and use of admin app
+  - User Authentication and Authorization
